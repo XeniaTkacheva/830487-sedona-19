@@ -1,0 +1,29 @@
+.page-header__wrapper {
+  width: 320px;
+  margin: 0 auto;
+  outline: 1px solid green;
+}
+
+.page-header__logo-block {
+  position: relative;
+  height: 50px;
+}
+
+.page-header__logo {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -51px;
+}
+
+.page-header__hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 158px;
+
+  background-image: url("../../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

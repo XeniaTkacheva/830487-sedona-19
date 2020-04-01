@@ -1,0 +1,23 @@
+.main-nav {
+  position: relative;
+  background: rgba(#6f8a30, 0.2);
+}
+
+.main-nav__toggle {
+  background: transparent;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  right: 10px;
+  top: 10px;
+  bottom: 50px;
+}
+
+.main-nav__cross-icon {
+  fill: $white;
+}
