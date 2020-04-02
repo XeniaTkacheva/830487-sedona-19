@@ -1,3 +1,17 @@
 .city-sights {
-  background: palevioletred;
+  background: $white;
+}
+
+.city-sights__list {
+  margin: 0;
+  padding: 0 32px;
+  text-align: left;
+}
+
+.city-sights__title {
+  margin: 0;
+}
+
+.city-sights__text {
+  margin: 0;
 }

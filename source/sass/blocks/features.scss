@@ -1,0 +1,86 @@
+.features__wrapper {
+  box-sizing: border-box;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.features__header {
+  background: $white;
+  position: relative;
+  margin-bottom: 10px;
+
+  &::after {
+    content: "";
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    width: 100%;
+    height: 37px;
+
+    background-image: url("../img/bg-triangle.svg");
+    background-origin: border-box;
+    background-position: 0 0;
+    background-size: 320px 37px;
+    background-repeat: no-repeat;
+    z-index: 20;
+  }
+}
+
+.features__about {
+  margin: 0;
+  padding: 40px 32px 20px;
+  box-sizing: border-box;
+  font-family: "PT Sans-Bold", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: $black;
+  text-align: center;
+}
+
+.features__foreword {
+  margin: 0;
+  padding: 20px 32px;
+  box-sizing: border-box;
+}
+
+.features__list {
+  padding: 70px 0 0;
+  background: $color-light;
+  text-align: center;
+}
+
+.features__item {
+  background: $grey-middle;
+
+  &--top {
+    background: $color-light;
+  }
+}
+
+.features__title {
+  margin: 0;
+  font-family: "PT Sans-Bold", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: $black;
+
+  &--top {
+    color: $white;
+  }
+}
+
+.features__number,
+.features__description {
+  margin: 0;
+  padding: 0;
+
+  &--top {
+    color: $white;
+  }
+}
+
+.features__image {
+  display: block;
+}
