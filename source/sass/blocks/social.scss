@@ -4,7 +4,7 @@
   justify-items: center;
   align-items: center;
   justify-content: space-around;
-  width: 150px;
+  width: 160px;
 }
 
 .social__item {
@@ -14,4 +14,9 @@
   width: 46px;
   height: 46px;
   background: $color-light;
+}
+
+.social__link-image {
+  padding-top: 7px;
+  fill: $white;
 }
