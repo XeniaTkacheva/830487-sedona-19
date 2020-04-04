@@ -1,5 +1,47 @@
 .presentation {
-  margin: 20px auto;
+  margin: 0 auto 46px;
   width: 320px;
   text-align: center;
+}
+
+.presentation__title {
+  margin: 0;
+  padding: 9px 20px 12px;
+  font-family: "PT Sans-Bold", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+}
+
+.presentation__foreword {
+  margin: 0;
+  padding: 15px 24px 36px;
+  line-height: 24px;
+}
+
+.presentation__video {
+  margin: 0 auto;
+  display: block;
+}
+
+.presentation__control {
+  box-sizing: border-box;
+  position: relative;
+  height: 66px;
+  width: 280px;
+  margin: 0 auto;
+  background: $grey-light;
+
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 45px;
+    top: -45px;
+    left: 0;
+    background: $black-30;
+    z-index: 150;
+  }
 }

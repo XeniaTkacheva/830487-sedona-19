@@ -13,10 +13,13 @@
   align-items: center;
   width: 46px;
   height: 46px;
-  background: $color-light;
 }
 
 .social__link-image {
   padding-top: 7px;
   fill: $white;
+
+  &:active {
+    fill: rgba($white, 0.3);
+  }
 }

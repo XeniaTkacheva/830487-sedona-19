@@ -1,16 +1,16 @@
 .button {
   display: block;
   margin: 0;
-  padding: 14px;
+  padding: 16px;
   box-sizing: border-box;
   width: 100%;
-  border: 2px solid $color-light;
-  background: transparent;
+  border: none;
+  background: $color-light;
 
+  color: $white;
   text-align: center;
 
   &:hover {
-    color: $white;
     background-color: $color-middle;
   }
 
