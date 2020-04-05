@@ -1,0 +1,56 @@
+.connect__wrapper {
+  padding: 0 0 20px;
+}
+
+.connect__names {
+  display: block;
+  box-sizing: border-box;
+  padding: 0 0 14px 22px;
+  line-height: 26px;
+}
+
+.connect__fields {
+  position: relative;
+  background: $grey-middle;
+}
+
+.connect__text {
+  display: block;
+  box-sizing: border-box;
+  width: auto;
+  margin-right: 58px;
+  padding: 19px 22px;
+  border: 2px solid $grey-light;
+  background: $grey-light;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid $grey-middle;
+    background: $grey-middle;
+  }
+
+  &:active {
+    background: $white;
+  }
+
+  &::placeholder {
+    font-family: "PT Sans-Bold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: $black;
+  }
+}
+
+.connect__icon {
+  position: absolute;
+  width: 18px;
+  height: auto;
+  bottom: 19px;
+  right: 30px;
+  z-index: 60;
+
+  &--mail {
+    bottom: 21px;
+  }
+}

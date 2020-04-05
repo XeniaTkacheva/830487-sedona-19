@@ -4,14 +4,21 @@
 
 .city-sights__list {
   margin: 0;
-  padding: 0 32px;
+  padding: 10px 32px 37px;
   text-align: left;
 }
 
 .city-sights__title {
   margin: 0;
+  padding: 26px 20px 10px 38px;
+  font-family: "PT Sans-Bold", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
 }
 
 .city-sights__text {
   margin: 0;
+  line-height: 21px;
+  padding: 3px 0 2px 38px;
 }

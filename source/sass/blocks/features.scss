@@ -30,7 +30,7 @@
 
 .features__about {
   margin: 0;
-  padding: 40px 32px 20px;
+  padding: 40px 32px 6px;
   box-sizing: border-box;
   font-family: "PT Sans-Bold", "Arial", sans-serif;
   font-size: 18px;
@@ -41,12 +41,12 @@
 
 .features__foreword {
   margin: 0;
-  padding: 20px 32px;
+  padding: 20px 32px 6px;
   box-sizing: border-box;
 }
 
 .features__list {
-  padding: 70px 0 0;
+  padding: 28px 0 0;
   background: $color-light;
   text-align: center;
 }
@@ -61,6 +61,7 @@
 
 .features__title {
   margin: 0;
+  padding: 26px 22px 7px;
   font-family: "PT Sans-Bold", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -68,16 +69,27 @@
 
   &--top {
     color: $white;
+    padding-top: 38px;
   }
 }
 
-.features__number,
-.features__description {
+.features__number {
   margin: 0;
   padding: 0;
 
   &--top {
     color: $white;
+  }
+}
+
+.features__description {
+  margin: 0;
+  padding: 12px 30px 27px;
+  line-height: 22px;
+
+  &--top {
+    color: $white;
+    margin: 0 0 11px;
   }
 }
 
