@@ -1,10 +1,5 @@
-.review {
-  margin: 20px auto;
-  width: 320px;
-}
-
-.review__header {
-  text-align: center;
+.form__set {
+  border: none;
 
   &::after {
     display: block;
@@ -16,9 +11,10 @@
   }
 }
 
-.review__title {
+.form__title {
   margin: 0;
-  padding: 7px 20px 10px;
+  padding: 7px 20px 25px;
+  text-align: center;
   font-family: "PT Sans-Bold", "Arial", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -26,8 +22,6 @@
   color: $black;
 }
 
-.review__foreword {
-  margin: 0;
-  padding: 17px 24px 28px;
-  line-height: 24px;
+.form__btn {
+  margin: 40px 0;
 }

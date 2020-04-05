@@ -1,14 +1,18 @@
 .button {
   display: block;
+  box-sizing: border-box;
   margin: 0;
   padding: 16px;
-  box-sizing: border-box;
   width: 100%;
   border: none;
   background: $color-light;
 
+  font-family: "PT Sans-Bold", "Arial", sans-serif;
+  font-size: 21px;
+  line-height: 26px;
   color: $white;
   text-align: center;
+  text-transform: uppercase;
 
   &:hover {
     background-color: $color-middle;
