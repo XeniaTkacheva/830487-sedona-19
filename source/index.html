@@ -97,7 +97,8 @@
   </symbol>
   <symbol id="icon-gift" viewBox="0 0 63 75.084">
     <g>
-      <path d="M60.165,22.23h-0.103H35.758c13.604-6.815,14.688-11.115,14.188-13.52c-1.145-3.916-5.604-6.938-9.848-5.341 c-5.484,2.063-7.029,10.262-8.514,16.19C29.69,13.561,27.858,5.91,23.573,2.034c-1.242-1.125-3.049-2.237-5.676-2.003 c-3.965,0.352-9.652,5.317-7.344,10.849c2.217,5.313,9.539,8.67,14.354,11.35H2.834C1.275,22.23,0,23.506,0,25.065V36.25 c0,1.559,1.275,2.834,2.835,2.834h0.27v35.999h56.958V39.084h0.104c1.561,0,2.835-1.275,2.835-2.834V25.065 C63,23.506,61.725,22.23,60.165,22.23z M41.766,5.873c2.07-0.306,4.907,1.283,5.176,3.171c0.386,2.723-3.349,5.192-5.008,6.343 c-2.484,1.723-4.853,2.611-7.178,4.006C35.628,15.748,37.268,6.539,41.766,5.873z M19.232,15.721 c-2.19-1.467-6.444-4.378-6.342-7.678c0.11-3.552,5.655-6.491,8.68-3.839c3.797,3.331,5.625,10.972,7.01,16.357 C25.381,19.042,22.35,17.808,19.232,15.721z M25.114,72.147H6.042V39.084h19.072V72.147z M25.114,36.084H3V25.23h22.114V36.084z  M35.115,72.146h-7.063V25.23h7.063V72.146z M57.125,72.147H38.053V39.084h19.072V72.147z M60,36.084H38.053V25.23H60V36.084z"/>
+      <path
+        d="M60.165,22.23h-0.103H35.758c13.604-6.815,14.688-11.115,14.188-13.52c-1.145-3.916-5.604-6.938-9.848-5.341 c-5.484,2.063-7.029,10.262-8.514,16.19C29.69,13.561,27.858,5.91,23.573,2.034c-1.242-1.125-3.049-2.237-5.676-2.003 c-3.965,0.352-9.652,5.317-7.344,10.849c2.217,5.313,9.539,8.67,14.354,11.35H2.834C1.275,22.23,0,23.506,0,25.065V36.25 c0,1.559,1.275,2.834,2.835,2.834h0.27v35.999h56.958V39.084h0.104c1.561,0,2.835-1.275,2.835-2.834V25.065 C63,23.506,61.725,22.23,60.165,22.23z M41.766,5.873c2.07-0.306,4.907,1.283,5.176,3.171c0.386,2.723-3.349,5.192-5.008,6.343 c-2.484,1.723-4.853,2.611-7.178,4.006C35.628,15.748,37.268,6.539,41.766,5.873z M19.232,15.721 c-2.19-1.467-6.444-4.378-6.342-7.678c0.11-3.552,5.655-6.491,8.68-3.839c3.797,3.331,5.625,10.972,7.01,16.357 C25.381,19.042,22.35,17.808,19.232,15.721z M25.114,72.147H6.042V39.084h19.072V72.147z M25.114,36.084H3V25.23h22.114V36.084z  M35.115,72.146h-7.063V25.23h7.063V72.146z M57.125,72.147H38.053V39.084h19.072V72.147z M60,36.084H38.053V25.23H60V36.084z"/>
     </g>
   </symbol>
   <symbol id="icon-burger" viewBox="0 0 76.166 68.959">
@@ -152,22 +153,24 @@
 </svg>
 <header class="page-header">
   <div class="page-header__wrapper">
-    <nav class="main-nav">
-      <button class="main-nav__toggle main-nav__toggle--off" type="button">
-        <svg class="main-nav__cross-icon" width="22" height="22">
-          <use xlink:href="#icon-cross"></use>
-        </svg>
-        <span class="visually-hidden">Закрыть меню</span>
-      </button>
-      <ul class="main-nav__list site-list default-list">
-        <li class="site-list__item site-list__item--active"><a>Главная</a></li>
-        <li class="site-list__item"><a href="photo.html">Фото и видео</a></li>
-        <li class="site-list__item"><a href="form.html">Форма отзыва</a></li>
-        <li class="site-list__item"><a href="https://htmlacademy.ru" target="_blank">HTML Аcademy</a></li>
-      </ul>
-    </nav>
-    <div class="page-header__logo-block">
+    <div class="page-header__container">
+      <nav class="main-nav">
+        <button class="main-nav__toggle main-nav__toggle--off" type="button">
+          <svg class="main-nav__cross-icon" width="22" height="22">
+            <use xlink:href="#icon-cross"></use>
+          </svg>
+          <span class="visually-hidden">Закрыть меню</span>
+        </button>
+        <ul class="main-nav__list site-list default-list">
+          <li class="site-list__item site-list__item--active"><a>Главная</a></li>
+          <li class="site-list__item"><a href="photo.html">Фото и видео</a></li>
+          <li class="site-list__item"><a href="form.html">Форма отзыва</a></li>
+          <li class="site-list__item"><a href="https://htmlacademy.ru" target="_blank">HTML Аcademy</a></li>
+        </ul>
+      </nav>
       <a href="#" class="page-header__logo"><img src="img/logo-mobile-svg.svg" class="page-header__logo-image" alt="Logo of Seewen" width="102" height="83"></a>
+    </div>
+    <div class="page-header__logo-block">
       <button class="main-nav__toggle main-nav__toggle--on" type="button">
         <svg class="main-nav__menu-icon" width="23" height="22">
           <use xlink:href="#icon-menu"></use>
@@ -272,10 +275,19 @@
       <a href="#" class="find__btn button">Найти гостиницу</a>
     </div>
     <div class="find__map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32600.246718984417!2d8.630499539214343!3d47.025378124262026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478551e1c86781e9%3A0x31b77e4a9b0a7057!2zNjQyMyDQl9C10LXQstC10L0sINCo0LLQtdC50YbQsNGA0LjRjw!5e0!3m2!1sru!2sru!4v1585548700084!5m2!1sru!2sru"
-        width="320" height="350" style="border: 0;" allowfullscreen="" aria-hidden="false"
-        tabindex="0"></iframe>
+      <iframe class="find__map-google"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32600.246718984417!2d8.630499539214343!3d47.025378124262026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478551e1c86781e9%3A0x31b77e4a9b0a7057!2zNjQyMyDQl9C10LXQstC10L0sINCo0LLQtdC50YbQsNGA0LjRjw!5e0!3m2!1sru!2sru!4v1585548700084!5m2!1sru!2sru"
+              width="1200" height="350" style="border: 0; text-align: center;" allowfullscreen aria-hidden="false"
+              tabindex="0"></iframe>
+      <picture>
+        <!--        <source type="image/webp" media="(min-width: 1150px)" srcset="img/bg-map-desktop@1x.webp 1x, img/bg-map-desktop@2x.webp 2x">-->
+        <!--        <source type="image/webp" media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.webp 1x, img/bg-map-tablet@2x.webp 2x">-->
+        <!--        <source type="image/webp" srcset="img/bg-map-mobile@1x.webp 1x, img/bg-map-mobile@2x.webp 2x">-->
+        <!--        <source media="(min-width: 1150px)" srcset="img/bg-map-desktop@1x.jpg 1x, img/bg-map-desktop@2x.jpg 2x">-->
+        <!--        <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.jpg 1x, img/bg-map-tablet@2x.jpg 2x">-->
+        <!--        <img class="find__map-image" src="img/bg-map-mobile@1x.jpg" srcset="img/bg-map-mobile@2x.jpg 2x" alt="г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101" width="320" height="350">-->
+        <img class="find__map-image" src="img/bg-map-mobile@1x.jpg" alt="г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101" width="320" height="350">
+      </picture>
     </div>
   </section>
 </main>
@@ -313,7 +325,9 @@
     <b class="copyright__text">Разработано</b>
     <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
       <span class="visually-hidden">Oksana Burki</span>
-      <svg class="copyright__logo" width="27" height="34"><use xlink:href="#logo-academy"></use></svg>
+      <svg class="copyright__logo" width="27" height="34">
+        <use xlink:href="#logo-academy"></use>
+      </svg>
     </a>
   </div>
 </footer>
