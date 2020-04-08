@@ -101,6 +101,10 @@
   .features__wrapper {
     width: $tablet-width;
   }
+
+  .features__header {
+    background: rgba(255, 220, 243, 0.82);
+  }
 }
 
 @media (min-width: $desktop-width) {

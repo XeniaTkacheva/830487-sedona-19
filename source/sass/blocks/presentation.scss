@@ -1,4 +1,6 @@
-.presentation {
+.presentation__wrapper {
+  display: block;
+  box-sizing: border-box;
   margin: 0 auto 46px;
   width: 320px;
   text-align: center;
@@ -16,7 +18,7 @@
 
 .presentation__foreword {
   margin: 0;
-  padding: 15px 24px 36px;
+  padding: 20px 100px 36px;
   line-height: 24px;
 }
 
@@ -43,5 +45,28 @@
     left: 0;
     background: $black-30;
     z-index: 150;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .presentation__wrapper {
+    width: $tablet-width;
+    padding: 0 60px;
+  }
+
+  .presentation__title {
+    font-size: 30px;
+  }
+
+  .presentation__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .presentation__wrapper {
+    width: $desktop-width;
+    padding: 0 200px;
   }
 }
