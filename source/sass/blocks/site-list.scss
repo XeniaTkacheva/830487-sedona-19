@@ -31,6 +31,7 @@
   .site-list__item {
     max-width: 153px;
     background: $white;
+    box-shadow: none;
 
     &:nth-child(2),
     &:nth-child(6) {
@@ -45,14 +46,6 @@
     line-height: 26px;
     font-weight: 700;
     color: $black;
-  }
-
-  .page-header__hero {
-    min-width: 301px;
-
-    &--home {
-      min-width: 518px;
-    }
   }
 }
 
