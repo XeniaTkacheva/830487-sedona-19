@@ -1,5 +1,10 @@
 .page-header {
   margin: 0 auto;
+  background-color: $grey-middle;
+  background-image: url("../img/bg-back-see-desktop@1x.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .page-header__wrapper {
@@ -15,6 +20,7 @@
 }
 
 .page-header__logo-block {
+  background: rgba($white, 0.8);
   box-sizing: border-box;
   position: relative;
   height: 56px;
@@ -41,11 +47,11 @@
   min-height: 158px;
   position: relative;
 
-  background-color: $grey-middle;
-  background-image: url("../img/bg-back-see-desktop@1x.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: auto;
+  //background-color: $grey-middle;
+  //background-image: url("../img/bg-back-see-desktop@1x.jpg");
+  //background-position: center center;
+  //background-repeat: no-repeat;
+  //background-size: auto;
 
   &--home {
     min-height: 389px;
@@ -80,7 +86,7 @@
 
 @media (min-width: $tablet-width) {
   .page-header {
-    margin-bottom: 110px;
+    margin-bottom: 6px;
   }
 
   .page-header__wrapper {
@@ -99,7 +105,7 @@
     min-height: 301px;
     //background-image: url("../img/bg-back-tablet@1x.jpg");
     //background-image: url("../img/bg-back-seewen-tablet@1x.jpg");
-    background-image: url("../img/bg-back-see-desktop@1x.jpg");
+    //background-image: url("../img/bg-back-see-desktop@1x.jpg");
 
 
     &--home {
@@ -136,6 +142,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .page-header {
+    background-image: url("../img/bg-back-see1-desktop@1x.jpg");
+  }
+
   .page-header__wrapper {
     width: $desktop-width;
   }
@@ -153,7 +163,7 @@
       height: 64px;
 
       background-image: url("../img/bg-intro-triangle-desktop.svg");
-      background-size: 100% 71px;
+      background-size: 100% 72px;
     }
   }
 
