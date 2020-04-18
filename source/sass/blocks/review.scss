@@ -1,4 +1,4 @@
-.review {
+.review__wrapper {
   margin: 20px auto;
   width: 320px;
 }
@@ -30,4 +30,29 @@
   margin: 0;
   padding: 17px 24px 28px;
   line-height: 24px;
+}
+
+@media (min-width: $tablet-width) {
+  .review__wrapper {
+    width: $tablet-width;
+  }
+
+  .review__header {
+    padding: 49px 60px 49px;
+    text-align: center;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .review__title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .review__wrapper {
+    width: $desktop-width;
+  }
 }

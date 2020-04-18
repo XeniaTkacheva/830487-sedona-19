@@ -10,15 +10,14 @@
 }
 
 .connect__fields {
-  position: relative;
-  background: $grey-middle;
+  display: flex;
+  justify-content: space-between;
 }
 
 .connect__text {
   display: block;
   box-sizing: border-box;
-  width: auto;
-  margin-right: 58px;
+  width: 100%;
   padding: 19px 22px;
   border: 2px solid $grey-light;
   background: $grey-light;
@@ -42,15 +41,68 @@
   }
 }
 
+.connect__icon-block {
+  width: 59px;
+  position: relative;
+  background: $grey-middle;
+}
+
 .connect__icon {
   position: absolute;
   width: 18px;
   height: auto;
   bottom: 19px;
-  right: 30px;
+  right: 19px;
   z-index: 60;
 
   &--mail {
     bottom: 21px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .connect {
+    border-top: 1px solid $grey;
+    margin-bottom: 50px;
+  }
+
+  .connect__title {
+    display: block;
+    margin: 0 auto 30px;
+    padding: 0 30px;
+    width: 400px;
+    text-align: center;
+    background: $white;
+    z-index: 2;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .connect {
+    display: flex;
+  }
+
+  .connect__container {
+    display: flex;
+  }
+
+  .connect__wrapper {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .connect__names {
+    padding: 0 13px 0 0;
+
+    span {
+      display: none;
+    }
+  }
+
+  .connect__fields {
+    width: 320px;
   }
 }
