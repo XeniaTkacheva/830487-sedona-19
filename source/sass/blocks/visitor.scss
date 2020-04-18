@@ -33,3 +33,17 @@
     color: $black;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .visitor {
+    margin-bottom: 70px;
+  }
+
+  .visitor__list {
+    padding: 34px 0 0;
+  }
+
+  .visitor__item {
+    padding: 26px 0 0;
+  }
+}
