@@ -1,5 +1,5 @@
 .picture {
-  width: 280px;
+  //width: 280px;
 }
 
 .picture__photo {
@@ -40,4 +40,38 @@
   width: 23px;
   height: 21px;
   margin-right: 13px;
+}
+
+@media (min-width: $tablet-width) {
+  .picture__photo {
+    width: 100%;
+  }
+
+  .picture__description {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 20px;
+
+    background: $grey-light;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .picture__title {
+    color: $white;
+  }
+
+  .picture__description {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    color: $white;
+    z-index: 100;
+    background-color: rgba($black, 0.2);
+  }
 }
