@@ -1,3 +1,13 @@
+// Color of SVG texts
+
+.text-seewen {
+  fill: $white;
+}
+
+.text-welcome {
+  fill: $color-light;
+}
+
 .page-header {
   margin: 0 auto;
   background-color: $grey-middle;
@@ -161,5 +171,18 @@
     &--home {
       margin-top: 95px;
     }
+  }
+
+  .page-header__logo {
+    width: 187px;
+    height: 97px;
+    bottom: -97px;
+    left: 50%;
+    margin-left: -93px;
+  }
+
+  .page-header__logo-image {
+    width: 187px;
+    height: 97px;
   }
 }
