@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!--If use tasks posthtml and sprite from gulpfile.js-->
+<!--<div class="svg-sprite">-->
+<!--  <include src="build/img/sprite.svg"></include>-->
+<!--</div>-->
 <svg class="svg-sprite">
   <symbol id="icon-menu" viewBox="0 0 22.928 21.982">
     <g>
@@ -329,6 +333,11 @@
   <symbol id="icon-facebook" viewBox="0 0 8.672 18.944">
     <path d="M6.275,3.356c0.799,0,1.599,0,2.398,0c0-1.119,0-2.237,0-3.356c-0.959,0-1.92,0-2.878,0C2.656,0.181,1.54,2.387,1.948,6.114 H0v3.518h1.959c0,3.104,0,6.208,0,9.312c1.279,0,2.559,0,3.837,0c0-3.104,0-6.208,0-9.312h2.857V6.114H5.787 C5.765,5.069,5.75,3.709,6.275,3.356z"/>
   </symbol>
+  <symbol id="icon-linkedin" viewBox="0 0 15.74 15.05">
+    <g>
+      <path d="M15.87,15.52V9.7c0-3.12-1.66-4.57-3.88-4.57A3.36,3.36,0,0,0,8.94,6.81V5.37H5.57c0,1,0,10.15,0,10.15H8.94V9.85A2.29,2.29,0,0,1,9.06,9,1.82,1.82,0,0,1,10.79,7.8c1.22,0,1.71.93,1.71,2.29v5.44ZM2,4A1.76,1.76,0,1,0,2,.47,1.76,1.76,0,1,0,2,4ZM3.7,15.52V5.37H.33V15.52Z" transform="translate(-0.13 -0.47)"/>
+    </g>
+  </symbol>
   <symbol id="logo-academy" viewBox="0 0 26.943 34.09">
     <g>
       <path
@@ -350,7 +359,7 @@
           <li class="site-list__item site-list__item--active"><a>Главная</a></li>
           <li class="site-list__item"><a href="photo.html">Фото и видео</a></li>
           <li class="site-list__item"><a href="form.html">Форма отзыва</a></li>
-          <li class="site-list__item"><a href="https://htmlacademy.ru" target="_blank">HTML Аcademy</a></li>
+          <li class="site-list__item"><a href="https://xeniaweb.blog/" target="_blank">Xenia WEB</a></li>
         </ul>
       </nav>
       <a class="page-header__logo">
@@ -405,7 +414,6 @@
             <source type="image/webp" media="(min-width: 1200px)" srcset="img/main-city-desktop@1x.webp 1x, img/main-city-desktop@2x.webp 2x">
             <source type="image/webp" media="(min-width: 768px)" srcset="img/main-city-tablet@1x.webp 1x, img/main-city-tablet@2x.webp 2x">
             <source type="image/webp" srcset="img/main-city-mobile@1x.webp 1x, img/main-city-mobile@2x.webp 2x">
-
             <source media="(min-width: 1200px)" srcset="img/main-city-desktop@1x.jpg 1x, img/main-city-desktop@2x.jpg 2x">
             <source media="(min-width: 768px)" srcset="img/main-city-tablet@1x.jpg 1x, img/main-city-tablet@2x.jpg 2x">
             <img class="features__image" src="img/main-city-mobile@1x.jpg" srcset="img/main-city-mobile@2x.jpg 2x" alt="Фото городка Зеевен" width="320" height="260">
@@ -487,7 +495,6 @@
           </p>
         </li>
       </ul>
-
     </div>
   </section>
   <section class="find">
@@ -500,7 +507,6 @@
         Укажите предполагаемые даты поездки,<br>
         и мы покажем вам лучшие предложения гостиниц в седоне
       </p>
-
       <a href="#" class="find__btn button">Найти гостиницу</a>
     </div>
     <div class="find__map">
@@ -520,31 +526,30 @@
     </div>
   </section>
 </main>
-<footer class="page-footer"
->
+<footer class="page-footer">
   <div class="page-footer__wrapper">
     <p class="page-footer__tags">#visitseewen</p>
     <div class="page-footer__social social">
       <ul class="social__list default-list">
         <li class="social__item button">
-          <a href="https://twitter.com/XeniaBurki" class="social__link social__link--twitter" target="_blank">
-            <span class="visually-hidden">Мы в Твиттере</span>
+          <a href="https://twitter.com/XeniaBurki" class="social__link social__link--twitter" target="_blank" title="Xenia in Twitter">
+            <span class="visually-hidden">Xenia in Twitter</span>
             <svg class="social__link-image social__link-image--twitter" width="15" height="28">
               <use xlink:href="#icon-twitter"></use>
             </svg>
           </a>
         </li>
         <li class="social__item button">
-          <a href="https://www.facebook.com/htmlacademy" class="social__link social__link--facebook" target="_blank">
-            <span class="visually-hidden">Мы в Фуйсбуке</span>
-            <svg class="social__link-image social__link-image--fb" width="9" height="19">
-              <use xlink:href="#icon-facebook"></use>
+          <a href="https://www.linkedin.com/in/xeniaweb" class="social__link social__link--linkedin" target="_blank" title="Xenia on Linkedin">
+            <span class="visually-hidden">Xenia on Linkedin</span>
+            <svg class="social__link-image social__link-image--fb" width="16" height="16">
+              <use xlink:href="#icon-linkedin"></use>
             </svg>
           </a>
         </li>
         <li class="social__item button">
-          <a href="https://www.youtube.com/channel/UCKSXl_LlBNShvPMrxCDIcYw" class="social__link social__link--youtube" target="_blank">
-            <span class="visually-hidden">Мы на ютубе</span>
+          <a href="https://www.youtube.com/channel/UCKSXl_LlBNShvPMrxCDIcYw" class="social__link social__link--youtube" target="_blank" title="Xenia on Youtube">
+            <span class="visually-hidden">Xenia on Youtube</span>
             <svg class="social__link-image social__link-image--youtube" width="20" height="14">
               <use xlink:href="#icon-youtube"></use>
             </svg>
@@ -554,7 +559,7 @@
     </div>
     <div class="page-footer__copyright copyright">
       <b class="copyright__text">Разработано</b>
-      <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
+      <a class="copyright__link" href="https://xeniaweb.ru/" target="_blank" title="Xenia WEB">
         <span class="visually-hidden">Oksana Burki</span>
         <svg class="copyright__logo" width="27" height="34">
           <use xlink:href="#logo-academy"></use>

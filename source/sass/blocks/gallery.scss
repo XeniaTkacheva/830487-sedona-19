@@ -2,8 +2,8 @@
   display: block;
   margin: 30px auto 20px;
   box-sizing: border-box;
-  //width: 320px;
-  min-width: 320px;
+  width: 320px;
+  //min-width: 320px;
 }
 
 .gallery__header {
@@ -33,6 +33,10 @@
   margin: 0;
   padding: 17px 24px 28px;
   line-height: 24px;
+
+  br {
+    display: none;
+  }
 }
 
 .gallery__content {
@@ -65,6 +69,7 @@
   .gallery__wrapper {
     //width: auto;
     width: $tablet-width;
+    margin: 60px auto 20px;
   }
 
   .gallery__header {
@@ -77,12 +82,16 @@
 
   .gallery__title {
     margin: 0;
-    padding: 7px 20px 10px;
+    padding: 16px 20px 14px;
     font-size: 30px;
   }
 
   .gallery__foreword {
     padding: 17px 100px 28px;
+  }
+
+  .gallery__content {
+    padding-top: 18px;
   }
 
   .gallery__list {
