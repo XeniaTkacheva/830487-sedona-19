@@ -27,12 +27,14 @@
 .picture__likes {
   display: flex;
   align-items: baseline;
+  text-align: right;
   margin: 0;
   padding: 4px 0 7px;
   font-family: "PT Sans-Bold", "Arial", sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
+  min-width: 70px;
 }
 
 .picture__icon-like {
@@ -52,9 +54,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px 20px;
-
+    padding: 1px 20px 18px;
     background: $grey-light;
+  }
+
+  .picture__icon-like {
+    margin: 10px 13px 0 0;
   }
 }
 
