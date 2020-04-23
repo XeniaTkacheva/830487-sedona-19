@@ -9,5 +9,5 @@
 node_modules/
 npm-debug.*
 build/
-source/img/imgopt/
+source/imgopt/
 Thumbs.db
