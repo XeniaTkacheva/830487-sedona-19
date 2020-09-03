@@ -20,7 +20,7 @@
     "gulp-svgstore": "^7.0.1",
     "imagemin-jpegtran": "^6.0.0",
     "posthtml-include": "^1.4.3",
-    "stylelint": "10.1.x",
+    "stylelint": "^13.6.0",
     "stylelint-config-htmlacademy": "0.1.x"
   },
   "scripts": {
@@ -49,6 +49,8 @@
   "dependencies": {
     "browserslist": "^4.11.1",
     "caniuse-lite": "^1.0.30001038",
-    "gulp-webp": "^4.0.1"
+    "deep-extend": "^0.6.0",
+    "gulp-webp": "^4.0.1",
+    "yarg": "^1.0.8"
   }
 }

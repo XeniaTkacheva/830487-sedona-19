@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XeniaWeb Seewen</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<!--If use tasks posthtml and sprite from gulpfile.js-->
+<div class="svg-sprite">
+  <include src="build/img/sprite.svg"></include>
+</div>
+
+<header class="page-header">
+  <div class="page-header__wrapper">
+    <div class="page-header__container">
+      <nav class="main-nav">
+        <button class="main-nav__toggle main-nav__toggle--off" type="button">
+          <svg class="main-nav__cross-icon" width="22" height="22">
+            <use xlink:href="#icon-cross"></use>
+          </svg>
+          <span class="visually-hidden">Закрыть меню</span>
+        </button>
+        <ul class="main-nav__list site-list default-list">
+          <li class="site-list__item site-list__item--active"><a>Главная</a></li>
+          <li class="site-list__item"><a href="photo.html">Фото и видео</a></li>
+          <li class="site-list__item"><a href="form.html">Форма отзыва</a></li>
+          <li class="site-list__item"><a href="https://xeniaweb.blog/" target="_blank">Xenia WEB</a></li>
+        </ul>
+      </nav>
+      <a class="page-header__logo">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+          <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+          <img src="img/logo-mobile-svg.svg" class="page-header__logo-image" alt="Logo of Seewen" width="102" height="83">
+        </picture>
+      </a>
+    </div>
+    <div class="page-header__logo-block">
+      <button class="main-nav__toggle main-nav__toggle--on" type="button">
+        <svg class="main-nav__menu-icon" width="23" height="22">
+          <use xlink:href="#icon-menu"></use>
+        </svg>
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+    </div>
+    <div class="page-header__hero page-header__hero--home">
+      <h2 class="visually-hidden">Seewen</h2>
+      <svg class="page-header__title page-header__title--home" width="281" height="214">
+        <use xlink:href="#text-seewen-big"></use>
+      </svg>
+    </div>
+  </div>
+</header>
+<main class="page-main">
+  <h1 class="visually-hidden">Welcome to the gorgeous Seewen</h1>
+  <section class="features">
+    <div class="features__wrapper">
+      <div class="features__header">
+        <h2 class="visually-hidden">
+          Преимущества городка Seewen
+        </h2>
+        <p class="features__about">
+          Seewen — небольшой городок в Швейцарии,<br>
+          заслуживающий большего!
+        </p>
+        <p class="features__foreword">
+          Рассмотрим 5 причин, по которым Seewen круче, чем гранд каньон!
+        </p>
+      </div>
+
+      <div class="features__content city-sights">
+
+      </div>
+    </div>
+  </section>
+
+    </div>
+  </section>
+</main>
+<footer class="page-footer">
+  <div class="page-footer__wrapper">
+    <p class="page-footer__tags">#visitseewen</p>
+    <div class="page-footer__social social">
+      <ul class="social__list default-list">
+        <li class="social__item button">
+          <a href="https://twitter.com/XeniaBurki" class="social__link social__link--twitter" target="_blank" title="Xenia in Twitter">
+            <span class="visually-hidden">Xenia in Twitter</span>
+            <svg class="social__link-image social__link-image--twitter" width="15" height="28">
+              <use xlink:href="#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item button">
+          <a href="https://www.linkedin.com/in/xeniaweb" class="social__link social__link--linkedin" target="_blank" title="Xenia on Linkedin">
+            <span class="visually-hidden">Xenia on Linkedin</span>
+            <svg class="social__link-image social__link-image--fb" width="16" height="16">
+              <use xlink:href="#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item button">
+          <a href="https://www.youtube.com/channel/UCKSXl_LlBNShvPMrxCDIcYw" class="social__link social__link--youtube" target="_blank" title="Xenia on Youtube">
+            <span class="visually-hidden">Xenia on Youtube</span>
+            <svg class="social__link-image social__link-image--youtube" width="20" height="14">
+              <use xlink:href="#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-footer__copyright copyright">
+      <b class="copyright__text">Разработано</b>
+      <a class="copyright__link" href="https://xeniaweb.ru/" target="_blank" title="Xenia WEB">
+        <span class="visually-hidden">Oksana Burki</span>
+        <svg class="copyright__logo" width="27" height="34">
+          <use xlink:href="#icon-academy"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
